@@ -1,0 +1,119 @@
+body {
+    background-color: black;
+    font-size: 22px;
+    font-family: Helvetica;
+    text-align: center;
+    color: seashell;
+    opacity: 0.9;
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    height: 69px;
+    position: fixed;
+    display: block;
+    background-color: black;
+    top: 0px;
+    border-bottom: 1px solid seashell;
+
+}
+
+.logo {
+    height: 50px;
+    padding-left: 10px;  
+    float: left;
+    padding-top: 10px;
+}
+
+.nav {
+    float: right;
+    height: 100%;
+    margin: 0px auto;
+}
+
+.nav a {
+    display: table;
+    float: left;
+    height: 100%;
+    padding: 0px 20px;
+}
+
+.nav a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    text-decoration: underline;
+    color: white;
+}
+
+.mission-container {
+    background-image: url("img-mission-background.jpg");  
+    background-position: center;  
+    background-repeat: no-repeat;
+    height: 700px;
+    max-width: 1200px;
+    margin: 70px auto 70px auto;
+    display: flex;
+}
+
+.text-over {
+    background-color: black;
+    margin: auto;
+    width: 100%;
+}
+
+.trend-container {
+    max-width: 1000px;
+    height: auto;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.trend img {
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+}
+
+.banner {
+    max-width: 1200px;
+    height: 500px;
+    background-image: url(img-locations-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 70px auto auto auto;
+    background-size: cover;
+    padding: 85px;
+}
+
+.box-container{
+    max-width: 1200px;
+    display: flex;
+    margin: 15 auto auto auto;
+    justify-content: space-between;
+}
+
+.box {
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    background-color: black;
+    opacity: 0.8;
+    box-sizing: border-box;
+    margin-bottom: auto;
+    
+}
+
+.footer {
+    height: 200px;
+    margin: auto;
+    font-size: 20px;
+}
+
+.copy-right {
+    float: left;
+    padding-left: 20px;
+}
